@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuantumCart - Your Cart</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/main.js"></script>
+    <script defer src="js/products.js"></script>
+    <script defer src="js/cart.js"></script>
+</head>
+<body>
+    <header class="main-header">
+        <nav class="navbar">
+            <a href="index.html" class="logo">QuantumCart</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cart.html">Cart (<span id="cart-item-count">0</span>)</a></li>
+            </ul>
+            <div class="hamburger-menu">&#9776;</div>
+        </nav>
+    </header>
+
+    <main class="cart-page">
+        <section class="cart-section">
+            <h2>Your Shopping Cart</h2>
+            <div id="cart-items" class="cart-items-container">
+                </div>
+            <div class="cart-summary">
+                <p>Total: <span id="cart-total-price">$0.00</span></p>
+                <a href="checkout.html" class="btn btn-primary checkout-btn">Proceed to Checkout</a>
+                <a href="index.html" class="btn btn-secondary continue-shopping-btn">Continue Shopping</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <p>&copy; 2025 QuantumCart. All rights reserved.</p>
+    </footer>
+</body>
+</html>
